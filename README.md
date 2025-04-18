@@ -1,120 +1,89 @@
-Código fonte desenvolvido na aulas: [Acessar as aulas]().<br>
-Como criar um CRUD com Laravel 12, ou seja, cadastrar, listar, editar e apagar.<br>
+# 📝 Sistema de Cadastro em Laravel com MySQL
 
-## Requisitos
+## **Visão Geral do Projeto**
 
-* PHP 8.2 ou superior - Conferir a versão: php -v
-* Composer - Conferir a instalação: composer --version
-* Node.js 22 ou superior - Conferir a versão: node -v
+Este é um **sistema de cadastro** desenvolvido com o framework **Laravel (PHP)** e **MySQL** como banco de dados. Ele permite o gerenciamento básico de registros, incluindo **cadastro, listagem, edição e exclusão** de usuários ou entidades, seguindo boas práticas de desenvolvimento web.
 
-## Como rodar o projeto baixado
+---
 
-Duplicar o arquivo ".env.example" e renomear para ".env".<br>
+## **🔧 Funcionalidades Principais**
 
-Instalar as dependências do PHP
-```
-composer install
-```
+✔ **Cadastro de Usuários/Entidades**  
+- Formulário validado para evitar dados incorretos  
+- Armazenamento seguro no banco de dados MySQL  
 
-Gerar a chave para o arquivo .env.
-```
-php artisan key:generate
-```
+✔ **Listagem de Registros**  
+- Exibição em tabela organizada  
+- Suporte a **paginção** para melhor performance  
 
-Iniciar o projeto criado com Laravel
-```
-php artisan serve
-```
+✔ **Edição e Exclusão**  
+- Atualização de dados existentes  
+- Remoção segura de registros  
 
-Executar as migration para criar a base de dados e as tabelas.
-```
-php artisan migrate
-```
+✔ **Validação de Dados**  
+- Verificação de campos obrigatórios  
+- Formatação correta de e-mails, CPF, etc. (se aplicável)  
 
-Acessar o conteúdo padrão do Laravel
-```
-http://127.0.0.1:8000
-```
+✔ **Interface Responsiva**  
+- Layout adaptável para diferentes dispositivos  
 
-## Sequência para criar o projeto
+---
 
-Criar o projeto com Laravel
-```
-composer create-project laravel/laravel .
-```
+## **🛠 Tecnologias Utilizadas**
 
-Iniciar o projeto criado com Laravel.
-```
-php artisan serve
-```
+- **Backend:**  
+  ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)  
+  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)  
 
-Acessar o conteúdo padrão do Laravel
-```
-http://127.0.0.1:8000
-```
+- **Banco de Dados:**  
+  ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)  
 
-Criar a Controller.
-```
-php artisan make:controller NomeController
-```
-```
-php artisan make:controller UserController
-```
+- **Frontend (Opcional, se usado):**  
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)  
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
 
-Criar a View.
-```
-php artisan make:view nome
-```
-```
-php artisan make:view users/create
-```
+---
 
-Executar as migration para criar a base de dados e as tabelas.
-```
-php artisan migrate
-```
+## **🎯 Objetivo do Projeto**
 
-## Como enviar o projeto para o GitHub.
+Este sistema foi desenvolvido para demonstrar:  
 
-Inicializar um novo repositorio GIT.
-```
-git init
-```
+✅ **CRUD completo** (Create, Read, Update, Delete)  
+✅ **Conexão com banco de dados MySQL** usando Eloquent ORM  
+✅ **Boas práticas de estruturação** em Laravel (MVC)  
+✅ **Validação de formulários** e tratamento de erros  
 
-Adicionar todos os arquivos modificados na área de preparação.
-```
-git add .
-```
+Pode ser usado como **base para projetos mais complexos**, como sistemas de gerenciamento de clientes, produtos ou qualquer outro cadastro.
 
-Commit registra as alterações feitas nos arquivos que foram adicionados na área de preparação.
-```
-git commit -m "Base do projeto"
-```
+---
 
-Verificar em qual branch está.
-```
-git branch
-```
+## **📌 Próximas Melhorias (Roadmap)**
 
-Renomear a branch atual no GIT para main.
-```
-git branch -M main
-```
+🔹 **Autenticação de usuários** (login/logout)  
+🔹 **Upload de imagens** para perfis ou produtos  
+🔹 **Exportação de dados** (Excel, PDF)  
+🔹 **API RESTful** para integração com frontends (Vue.js/React)  
 
-Adicionar um repositório remoto ao repositório local.
-```
-git remote add origin https://github.com/celkecursos/tutorial-como-usar-laravel-12.git
-```
+---
 
-Enviar os commits locais para um repositório remoto.
-```
-git push -u origin main
-```
+## **📜 Licença**
 
-## Autor
+Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Este projeto foi desenvolvido por [Cesar Szpak](https://github.com/cesarszpak) e está hospedado no repositório da organização [Celke](https://github.com/celkecursos).
+---
 
-## Licença
+## **📞 Contato**
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
+Desenvolvido por *Nathan Porto**  
+✉ **Email:** nathanporto738@gmail.com  
+🌐 **GitHub:** [github.com/nathanporto]  
+
+💡 **Sugestões e contribuições são bem-vindas!**  
+
+--- 
+
+**🔗 Acesse o projeto:** [)  
+
+--- 
+
+✨ **Obrigado pelo interesse!** ✨
