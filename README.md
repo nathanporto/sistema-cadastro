@@ -82,7 +82,7 @@ Desenvolvido por *Nathan Porto**
 
 --- 
 
-**🔗 Acesse o projeto:** [)  
+**🔗 Acesse o projeto:**   
 
 --- 
 
